@@ -205,7 +205,8 @@ p {
     align-self: center;
     justify-self: center;
     flex-wrap: wrap;
-    flex-basis: 70%;
+    flex-basis: 20em;
+/*    flex-basis: 70%; */
 }
 
 .break {
