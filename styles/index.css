@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-basis: 33%;
 }
 
 .flex1 {
@@ -117,16 +118,6 @@ p {
     margin-left: 98px;
 }
 
-.circles {
-    background-color: #E89530;
-    height: 100vh;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 .circle {
     min-width: 50px;
     min-height: 50px;
@@ -190,9 +181,11 @@ p {
     align-self: center;
     justify-self: center;
     flex-wrap: wrap;
-/*    flex-basis: 70%; */
 }
 
+
 section {
-    display: inline-block;
+    display: flex;
+    flex wrap: wrap;
+    flex-basis: 33%;
 }
